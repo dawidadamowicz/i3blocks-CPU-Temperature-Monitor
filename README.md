@@ -25,29 +25,29 @@ A minimalistic and informative CPU temperature monitoring block for i3blocks wit
 
 ## 🛠️ Installation
 
-1. Install dependencies:
+### 1. Install dependencies:
 ```bash
 sudo pacman -S i3blocks lm_sensors sysstat bc libnotify
 ```
 
-2. Run sensor detection:
+### 2. Run sensor detection:
 ```bash
 sudo sensors-detect
 ```
 
-3. Clone the repository:
+### 3. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/i3blocks-cpu-temperature-monitor.git
 cd i3blocks-cpu-temperature-monitor
 ```
 
-4. Copy the script to your local bin:
+### 4. Copy the script to your local bin:
 ```bash
 mkdir -p ~/.config/i3blocks
 cp cpu_temp.sh ~/.config/i3blocks/
 chmod +x ~/.config/i3blocks/cpu_temp.sh
 ```
-5. Add to your `~/.config/i3blocks/config`:
+### 5. Add to your `~/.config/i3blocks/config`:
 ```
 [cpu_temperature]
 command=/usr/local/bin/cpu_temp.sh
