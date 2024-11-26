@@ -61,6 +61,3 @@ markup=pango
 - Displays detailed CPU information
   - Per-core temperatures
   - Per-core CPU usage
-
-### Right Click
-- Shows full sensor output
