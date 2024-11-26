@@ -43,8 +43,9 @@ cd i3blocks-cpu-temperature-monitor
 
 4. Copy the script to your local bin:
 ```bash
-sudo cp cpu_temp.sh /usr/local/bin/
-sudo chmod +x /usr/local/bin/cpu_temp.sh
+mkdir -p ~/.config/i3blocks
+cp cpu_temp.sh ~/.config/i3blocks/
+chmod +x ~/.config/i3blocks/cpu_temp.sh
 ```
 5. Add to your `~/.config/i3blocks/config`:
 ```
